@@ -58,7 +58,7 @@ function Airplane(name) {
   Person.prototype.toString = function() {
     return `${this.name}, ${this.age}`;
   }
-  const PersonUno = new person ({
+  const personUno = new person ({
     name: "Daniel",
     age: 26
   })
